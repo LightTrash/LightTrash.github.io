@@ -30,26 +30,14 @@ $(function () {
     buffInterval = null,
     tFlag = false,
     albums = [
-      "Dawn",
-      "Me & You",
-      "Electro Boy",
-      "Home",
-      "Proxy (Original Mix)"
+      "Autumn Chill",
     ],
     trackNames = [
-      "Skylike - Dawn",
-      "Alex Skrindo - Me & You",
-      "Kaaze - Electro Boy",
-      "Jordan Schor - Home",
-      "Martin Garrix - Proxy"
+      "Morning Tea",
     ],
-    albumArtworks = ["_1", "_2", "_3", "_4", "_5"],
+    albumArtworks = ["_1"],
     trackUrl = [
-      "https://www.youtube.com/watch?v=xoWxv2yZXLQ&list=PLWL923jZIGrtOTDYPnk7wYo931GIS2-CD",
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/1.mp3",
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/3.mp3",
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/4.mp3",
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/5.mp3"
+      "https://raw.githubusercontent.com/LightTrash/LightTrash.github.io/master/music/Lee - I need a girl.mp3",
     ],
     playPreviousTrackButton = $("#play-previous"),
     playNextTrackButton = $("#play-next"),
