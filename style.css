@@ -45,6 +45,7 @@ body {
 }
 
 #player {
+  transform: scale(0.7);
   position: relative;
   height: 100%;
   z-index: 3;
@@ -74,7 +75,7 @@ body {
 
 #track-name {
   color: #00cc99;
-  font-size: 13px;
+  font-size: 15px;
   margin: 2px 0 13px 0;
 }
 
@@ -95,7 +96,8 @@ body {
 #current-time,
 #track-length {
   color: transparent;
-  font-size: 11px;
+  margin-top: -2px;
+  font-size: 13px;
   background-color: #eeffee;
   border-radius: 10px;
   transition: 0.3s ease all;
@@ -216,17 +218,7 @@ body {
 
 #album-art.active img.active {
   z-index: 1;
-  -webkit-animation: rotateAlbumArt 3s linear 0s infinite forwards;
-          animation: rotateAlbumArt 3s linear 0s infinite forwards;
-}
-
-@-webkit-keyframes rotateAlbumArt {
-  0% {
-    transform: rotateZ(0);
-  }
-  100% {
-    transform: rotateZ(360deg);
-  }
+  animation: rotateAlbumArt 3s linear 0s infinite forwards;
 }
 
 @keyframes rotateAlbumArt {
