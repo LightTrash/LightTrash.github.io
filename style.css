@@ -16,23 +16,12 @@ body {
 
 #app-cover {
   position: absolute;
-  top: 20%;
+  top: 45%;
   right: 0;
-  left: -10%;
+  left: -18%;
   width: 430px;
   height: 100px;
   margin: -0px auto;
-}
-
-#bg-layer {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #DDD;
-  opacity: 0.2;
-  z-index: 2;
 }
 
 #player {
