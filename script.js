@@ -1,7 +1,7 @@
 $(function () {
   var playerTrack = $("#player-track"),
-    bgArtwork = $("#bg-artwork"),
-    bgArtworkUrl,
+    //bgArtwork = $("#bg-artwork"),
+    //bgArtworkUrl,
     albumName = $("#album-name"),
     trackName = $("#track-name"),
     albumArt = $("#album-art"),
@@ -31,13 +31,16 @@ $(function () {
     tFlag = false,
     albums = [
       "Autumn Chill",
+      "Winter Smooth"
     ],
     trackNames = [
-      "Morning Tea 1", "Morning Tea 2"
+      "Morning Tea 1",
+      "Morning Tea 2"
     ],
-    albumArtworks = ["_1"],
+    albumArtworks = ["_1", "_2"],
     trackUrl = [
-      "https://raw.githubusercontent.com/LightTrash/LightTrash.github.io/master/music/Morning Tea 1.mp3", "https://raw.githubusercontent.com/LightTrash/LightTrash.github.io/master/music/Morning Tea 2.mp3"
+      "https://raw.githubusercontent.com/LightTrash/LightTrash.github.io/master/music/Morning Tea 1.mp3",
+      "https://raw.githubusercontent.com/LightTrash/LightTrash.github.io/master/music/Morning Tea 2.mp3"
     ],
     playPreviousTrackButton = $("#play-previous"),
     playNextTrackButton = $("#play-next"),
@@ -198,9 +201,9 @@ $(function () {
       albumArt.find("img.active").removeClass("active");
       $("#" + currArtwork).addClass("active");
 
-      bgArtworkUrl = $("#" + currArtwork).attr("src");
+      //bgArtworkUrl = $("#" + currArtwork).attr("src");
 
-      bgArtwork.css({ "background-image": "url(" + bgArtworkUrl + ")" });
+      //bgArtwork.css({ "background-image": "url(" + bgArtworkUrl + ")" });
     } else {
       if (flag == 0 || flag == 1) --currIndex;
       else ++currIndex;
