@@ -37,7 +37,7 @@ $(function () {
     ],
     albumArtworks = ["_1"],
     trackUrl = [
-      "https://raw.githubusercontent.com/LightTrash/LightTrash.github.io/master/music/Lee - I need a girl.mp3",
+      "https://raw.githubusercontent.com/LightTrash/LightTrash.github.io/master/music/Morning Tea 1.mp3", "https://raw.githubusercontent.com/LightTrash/LightTrash.github.io/master/music/Morning Tea 2.mp3"
     ],
     playPreviousTrackButton = $("#play-previous"),
     playNextTrackButton = $("#play-next"),
