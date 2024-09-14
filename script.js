@@ -33,7 +33,7 @@ $(function () {
       "Autumn Chill",
     ],
     trackNames = [
-      "Morning Tea",
+      "Morning Tea 1", "Morning Tea 2"
     ],
     albumArtworks = ["_1"],
     trackUrl = [
