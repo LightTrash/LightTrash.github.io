@@ -3,8 +3,9 @@
 }
 
 html, body {
-    max-width: 100%;
+    max-width: 100% !important;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 body {
@@ -15,20 +16,20 @@ body {
 
 #app-cover {
   position: absolute;
-  top: 50%;
+  top: 10%;
   right: 0;
-  left: 0;
+  left: -10%;
   width: 430px;
   height: 100px;
-  margin: -4px auto;
+  margin: -0px auto;
 }
 
 #bg-artwork {
   position: fixed;
-  top: -10px;
-  right: -10px;
-  bottom: -10px;
-  left: -10px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
   background-color: #2F3438;
   background-repeat: no-repeat;
   background-size: cover;
