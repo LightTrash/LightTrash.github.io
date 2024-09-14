@@ -19,7 +19,7 @@ body {
   top: 45%;
   right: 0;
   left: -18%;
-  width: 430px;
+  width: 400px;
   height: 100px;
   margin: -0px auto;
 }
@@ -149,12 +149,11 @@ body {
 #album-art {
   position: absolute;
   top: -40px;
-  width: 115px;
-  height: 115px;
-  margin-left: 40px;
+  width: 120px;
+  height: 120px;
+  margin-left: 13px;
   transform: rotateZ(0);
   transition: 0.3s ease all;
-  box-shadow: 0 0 0 5px #262626;
   border-radius: 50%;
   overflow: hidden;
 }
